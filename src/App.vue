@@ -13,7 +13,9 @@
           <router-link class="topnav-link" to="/customer" active-class="active">
             <span class="nav-icon">🎒</span><span>ลูกค้า</span>
           </router-link>
-          <!-- Dashboard is accessible via URL only -->
+          <router-link class="topnav-link" to="/dashboard" active-class="active">
+            <span class="nav-icon">📊</span><span>Dashboard</span>
+          </router-link>
         </div>
       </div>
     </nav>
