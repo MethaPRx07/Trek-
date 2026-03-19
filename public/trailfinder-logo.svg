@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="144" viewBox="0 0 280 72">
+  <!-- mountain line art -->
+  <polyline points="14,54 40,16 66,54" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="34,54 52,30 70,54" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="0.35"/>
+  <!-- leaf accent at peak -->
+  <path d="M40,16 Q50,5 55,12 Q48,14 40,16Z" fill="#aedcae"/>
+  <!-- base line -->
+  <line x1="14" y1="57" x2="70" y2="57" stroke="#ffffff" stroke-width="0.75" opacity="0.25"/>
+  <!-- wordmark TRAIL -->
+  <text x="86" y="30" font-family="Arial Narrow, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="0.8">TRAIL</text>
+  <!-- wordmark FINDER -->
+  <text x="153" y="30" font-family="Arial Narrow, Arial, sans-serif" font-size="22" font-weight="700" fill="#aedcae" letter-spacing="0.8">FINDER</text>
+  <!-- tagline -->
+  <text x="86" y="48" font-family="Arial Narrow, Arial, sans-serif" font-size="9" fill="#e8f0e8" letter-spacing="4">THAILAND TREKKING</text>
+</svg>
