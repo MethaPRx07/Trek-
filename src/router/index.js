@@ -4,15 +4,16 @@ import Customer from '../views/Customer.vue'
 import Dashboard from '../views/Dashboard.vue'
 
 const routes = [
-  { path: '/', redirect: '/guide' },
   { path: '/guide', component: Guide, name: 'Guide' },
   { path: '/customer', component: Customer, name: 'Customer' },
-  { path: '/dashboard', component: Dashboard, name: 'Dashboard' }
+  { path: '/dashboard', component: Dashboard, name: 'Dashboard' },
+  { path: '/', redirect: '/guide' }
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes,
+  mode: 'hash'
 })
 
 export default router
